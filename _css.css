@@ -1,0 +1,78 @@
+.container{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-top: 50px;
+    border: 3px solid #D50000;
+    box-shadow: 5px 5px 5px 3px lavender;
+    background-color: lavender;
+    opacity: 0.9;
+}
+
+.heading{
+    color: #FF9100;
+    text-align: center;
+}
+
+.heading .main{
+    font-size: 6rem;
+    font-family: Tangerine;
+    font-weight: bold;
+}
+
+.heading .extra{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.heading .extra sup{
+    font-size: small;
+    color: #D50000;
+}
+
+.heading .extra img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    margin-top: -70px;
+}
+
+.heading .extra p{
+    margin-left: -50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+}
+
+.products-list{
+    margin-top: -60px;
+}
+
+.products-list ol{
+    list-style: none;
+}
+
+.products-list ol li{
+    margin-bottom: 12px;
+    color: #D50000;
+    font-size: 4rem;
+    font-family: 'Tangerine', serif;
+}
+
+.moto{
+    font-family: Tangerine;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #FF9100;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    padding-bottom: 20px;
+}
