@@ -5,7 +5,7 @@
     padding-top: 10px;
     margin-top: 50px;
     border: 3px solid #D50000;
-    box-shadow: 5px 5px 5px 3px lavender;
+    box-shadow: 2px 2px 2px 1px #000000;
     background-color: lavender;
     opacity: 0.9;
 }
@@ -75,4 +75,16 @@
     flex-direction: row;
     justify-content:  space-around;
     padding-bottom: 20px;
+}
+
+.action-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    display: none;
+}
+
+.btn{
+    border-radius:0
 }
